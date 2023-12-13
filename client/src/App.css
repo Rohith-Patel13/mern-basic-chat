@@ -1,0 +1,60 @@
+/* App.css */
+
+.mainBg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: 100%;
+    resize: none;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  input[type="text"] {
+    margin-bottom: 10px;
+    padding: 10px;
+    width: calc(100% - 22px); /* Adjusted width to accommodate button's padding and margin */
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    margin-left: 10px; /* Added margin to separate the input and button */
+    padding: 10px 15px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  /* Additional styles to make input and button inline */
+  .input-group {
+    display: flex;
+    align-items: center;
+    justify-content:center ;
+  }
+  
+  
+  .bg{
+    border: 1px solid black;
+    width: 60%;
+    height: 50vh;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
